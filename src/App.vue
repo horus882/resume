@@ -45,7 +45,7 @@ html {
   color: #333333;
   font-size: 16px;
   /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
-  font-family: sourcehansans-tc, 'Noto Sans S Chinese', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'sourcehansans-tc', 'Noto Sans S Chinese', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -69,6 +69,7 @@ html {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 #main {
@@ -79,5 +80,24 @@ p.comment {
   color: #aaaaaa;
   font-style: italic;
 }
+
+#education ul,
+#experience ul {
+
+  li {
+
+    padding: 2rem 1rem 1rem;
+    text-align: left;
+    border-bottom: #999999 1px dashed;
+
+    h4 {
+      margin-bottom: 1rem;
+    }
+
+  }
+
+}
+
+
 
 </style>

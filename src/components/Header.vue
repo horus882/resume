@@ -56,7 +56,6 @@ ul {
 
   font-size: 0;
   margin-bottom: 0;
-  list-style: none;
 
   li {
 

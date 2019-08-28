@@ -59,10 +59,6 @@ export default {
 
 #skills {
 
-	ul {
-		list-style: none;
-	}
-
 }
 
 </style>

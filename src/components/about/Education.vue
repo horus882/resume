@@ -1,9 +1,18 @@
 <template>
   <section id="education" class="col-xs-12">
     <h2><i class="fas fa-xs fa-book"></i>Education</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <ul>
+      <li>
+        <h4>東南科技大學 Tungnan University</h4>
+        <p>資訊管理系 Department of Information Management</p>
+        <p>2009.09 － 2013.06</p>
+      </li>
+      <li>
+        <h4>臺北市立內湖高工 Nei-Hu Vocational High School</h4>
+        <p>資訊管理系 Department of Computer Science</p>
+        <p>2006.09 － 2009.06</p>
+      </li>
+    </ul>
   </section>
 </template>
 
