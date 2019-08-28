@@ -33,8 +33,8 @@
           <ul>
             <li>VS Code</li>
             <li>Sublime Text</li>
-            <li>Photoshop</li>
-            <li>Illustrator</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
             <li>NPM</li>
             <li>Git</li>
             <li>Gulp</li>

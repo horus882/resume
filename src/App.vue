@@ -86,12 +86,50 @@ p.comment {
 
   li {
 
-    padding: 2rem 1rem 1rem;
+    position: relative;
+    padding: 2rem 3rem 1rem;
     text-align: left;
-    border-bottom: #999999 1px dashed;
+    // border-bottom: #999999 1px dashed;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 40px;
+      left: 20px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #aaaaaa;
+    }
+
+    &::after {
+      top: 40px;
+      left: 25px;
+      width: 1px;
+      height: 100%;
+      border-radius: 0;
+    }
+
+    &:last-child::after {
+      content: none;
+    }
 
     h4 {
       margin-bottom: 1rem;
+    }
+
+    // .label {
+    //   display: inline-block;
+    //   color: #ffffff;
+    //   padding: 2.5px 15px;
+    //   border-radius: 5px;
+    //   background: #aaaaaa;
+    // }
+
+    .period {
+      color: #aaaaaa;
+      font-style: italic;
     }
 
   }
