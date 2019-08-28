@@ -17,13 +17,13 @@
 				</section>
 			</div>
 			<div class="row">
-				<section id="experience">
+				<section id="experience" class="col-xs-12">
 					<h2>工作經歷</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</section>
-				<section id="education">
+				<section id="education" class="col-xs-12">
 					<h2>學歷</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -31,13 +31,13 @@
 				</section>
 			</div>
 			<div class="row">
-				<section id="skills">
+				<section id="skills" class="col-xs-12">
 					<h2>專業技能</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</section>
-				<section id="languages">
+				<section id="languages" class="col-xs-12">
 					<h2>語言能力</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
