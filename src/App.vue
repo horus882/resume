@@ -42,13 +42,14 @@ html {
 }
 
 #app {
+  color: #333333;
   font-size: 16px;
   /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
   font-family: sourcehansans-tc, 'Noto Sans S Chinese', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   margin-top: 50px;
 }
 
@@ -67,7 +68,6 @@ html {
 
 ul {
   padding: 0;
-  list-style: none;
 }
 
 #main {

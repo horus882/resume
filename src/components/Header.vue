@@ -6,13 +6,13 @@
       <nav>
         <ul>
           <li>
-            <router-link to="/about">About</router-link>
+            <router-link to="/about"><i class="fas fa-address-card"></i>About</router-link>
           </li>
           <li>
-            <router-link to="/portfolio">Portfolio</router-link>
+            <router-link to="/portfolio"><i class="fas fa-folder"></i>Portfolio</router-link>
           </li>
           <li>
-            <router-link to="/research">Research</router-link>
+            <router-link to="/research"><i class="fas fa-flask"></i>Research</router-link>
           </li>
         </ul>
       </nav>
@@ -56,6 +56,7 @@ ul {
 
   font-size: 0;
   margin-bottom: 0;
+  list-style: none;
 
   li {
 
@@ -71,7 +72,11 @@ ul {
     }
 
     a {
+
       margin: 0 0 0 15px;
+
+      i {margin-right: 5px;}
+
     }
 
   }
