@@ -24,6 +24,20 @@ export default {
   components: {
     Header
   },
+  methods: {
+    handleScroll(event) {
+      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop || 0;
+      console.log(scrollTop);
+    }
+  },
+  created() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  mounted() {
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
   // watch: {
   //   $route (to, from) {
   //     console.log(to)
@@ -97,8 +111,8 @@ p.comment {
       position: absolute;
       top: 40px;
       left: 20px;
-      width: 10px;
-      height: 10px;
+      width: 11px;
+      height: 11px;
       border-radius: 50%;
       background: #aaaaaa;
     }

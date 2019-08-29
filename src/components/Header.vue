@@ -74,7 +74,7 @@ ul {
 
       margin: 0 0 0 15px;
 
-      i {margin-right: 5px;}
+      i {margin-right: 7.5px;}
 
     }
 

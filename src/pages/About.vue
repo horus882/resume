@@ -58,7 +58,7 @@ section {
 		.fas {
 			vertical-align: top;
 			margin-top: 6px;
-			margin-right: 5px;
+			margin-right: 7.5px;
 		}
 
 	}
