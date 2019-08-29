@@ -1,12 +1,14 @@
 <template>
   <header id="header" class="fixed-top">
       <!-- <h2>{{ this.$route.name }}</h2> -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <h1><a class="navbar-brand" href="#">Brent Hsieh</a></h1>
+        <h1>
+          <router-link to="/about" class="navbar-brand">Brent Hsieh</router-link>
+        </h1>
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">

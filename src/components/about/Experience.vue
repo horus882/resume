@@ -1,6 +1,6 @@
 <template>
   <section id="experience" class="col-xs-12">
-    <h2><i class="fas fa-xs fa-briefcase"></i>Experience</h2>
+    <h2 class="text-primary"><i class="fas fa-xs fa-briefcase"></i>Experience</h2>
     <ul>
       <li>
         <h4>Moulin-Orange 橘子磨坊數位創意溝通股份有限公司</h4>

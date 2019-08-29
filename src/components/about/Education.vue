@@ -1,6 +1,6 @@
 <template>
   <section id="education" class="col-xs-12">
-    <h2><i class="fas fa-xs fa-book"></i>Education</h2>
+    <h2 class="text-primary"><i class="fas fa-xs fa-book"></i>Education</h2>
     <ul>
       <li>
         <h4>東南科技大學 Tungnan University</h4>

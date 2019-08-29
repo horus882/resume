@@ -1,63 +1,87 @@
 <template>
   <section id="skills" class="col-xs-12">
-    <h2><i class="fas fa-xs fa-wrench"></i>Skills</h2>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-md-4">
-          <h3>Front-End</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Responsive Web Design</li>
-            <li>Bootstrap</li>
-            <li>jQuery</li>
-            <li>Vue.js</li>
-            <li>React.js</li>
-            <li>SCSS</li>
-            <li>SVG</li>
-            <li>SEO</li>
-            <li>各平台 API 串接</li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <h3>Back-End</h3>
-          <ul>
-            <li>PHP</li>
-            <li>MySQL</li>
-            <li>phpMyAdmin</li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <h3>Tools / Others</h3>
-          <ul>
-            <li>VS Code</li>
-            <li>Sublime Text</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>NPM</li>
-            <li>Git</li>
-            <li>Gulp</li>
-            <li>Spark AR</li>
-            <li>Pusher</li>
-            <li>Google Vision</li>
-            <li>Google Analytics</li>
-          </ul>
-        </div>
-      </div>
+    <h2 class="text-primary"><i class="fas fa-xs fa-wrench"></i>Skills</h2>
+    <div class="">
+      <h3>Front-End</h3>
+      <p>
+        <span class="badge badge-pill badge-secondary" v-for="item in frontend">{{ item }}</span>
+      </p>
+    </div>
+    <div class="">
+      <h3>Back-End</h3>
+      <p>
+        <span class="badge badge-pill badge-secondary" v-for="item in backend">{{ item }}</span>
+      </p>
+    </div>
+    <div class="">
+      <h3>Tools / Others</h3>
+      <p>
+        <span class="badge badge-pill badge-secondary" v-for="item in others">{{ item }}</span>
+      </p>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Skills'
+  name: 'Skills',
+  data() {
+    return {
+      frontend: [
+        'HTML5',
+        'CSS3',
+        'JavaScript',
+        'Responsive Web Design',
+        'Bootstrap',
+        'jQuery',
+        'Vue.js',
+        'React.js',
+        'SCSS',
+        'SVG',
+        'SEO',
+        '各平台 API 串接'
+      ],
+      backend: [
+        'PHP',
+        'MySQL',
+        'phpMyAdmin'
+      ],
+      others: [
+        'VS Code',
+        'Sublime Text',
+        'Adobe Photoshop',
+        'Adobe Illustrator',
+        'NPM',
+        'Git',
+        'Gulp',
+        'Spark AR',
+        'Pusher',
+        'Google Vision',
+        'Google Analytics'
+      ]
+    }
+  }
 }
 </script>
 
 <style lang="scss" scoped>
 
 #skills {
+
+  p {
+  }
+
+  .badge {
+
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 5px;
+
+  }
+
+  .badge-pill {
+    padding: 0.5em 0.8em;
+  }
 
 }
 
