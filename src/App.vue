@@ -64,7 +64,8 @@ html {
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-top: 50px;
+  padding-top: 56px;
+  // margin-top: 50px;
   margin-bottom: 50px;
 }
 
